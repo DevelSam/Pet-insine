@@ -751,3 +751,33 @@ h1{
     font-size: 20px;
     font-weight: 600;
 }
+.facts-title{
+    margin-bottom: 40px;
+}
+.facts{
+    background-color:#EDEBDD;
+}
+.accordion-button-3{
+    margin-bottom: 30px;
+    background-color:#EDEBDD;
+    padding: 0px;
+    border-bottom:0px;
+}
+.accordion-button:not(.collapsed){
+    box-shadow: none;
+}
+.accordion-item-3{
+    margin-bottom: 30px;
+    background-color:#EDEBDD
+}
+.accordion-body-3{
+    padding: 0px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.left-body__text{
+    font-family: Manrope;
+    margin-right: 40px;
+    line-height: 22px;
+    font-size: 16px;
+}
