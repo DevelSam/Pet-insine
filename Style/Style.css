@@ -10,6 +10,7 @@ body{
 :root{
     --color-primary:#EBE5D7;
     --color-text:#464330;
+    --high-accord: 26px;
 }
 /* .header{
     background-color: rgb(219, 213, 198);
@@ -780,4 +781,39 @@ h1{
     margin-right: 40px;
     line-height: 22px;
     font-size: 16px;
+}
+.faq-main__content{
+    display: flex;
+}
+.faq-section{
+    background-color:#DBD5C6;
+}
+.faq-left{
+    width: 50%;
+    margin-right: 40px;
+}
+.faq-right{
+    
+    width: 50%;
+}
+
+.accordion-button-4{
+    padding: 0px;
+    padding-bottom: 35px;
+    font-family: Arial;
+    line-height: 23px;
+    font-size: 20px;
+}
+.accordion-flush>.accordion-item-4:last-child{
+    border-bottom: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+}
+.accordion-item-4{
+    margin-bottom: 36px;
+}
+.accordion-item-4:last-child{
+    margin-bottom: 0px;
+    
+}
+.accordion-button-4__overtext{
+    padding-bottom: 15px;
 }
